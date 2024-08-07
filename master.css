@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+    width: 50px;
+    /* border: 1px solid white; */
+
+   filter: drop-shadow(3px 3px 10px rgb(96, 247, 113));
+   /* color: rgb(0, 0, 255); */
+    transform: rotateX(-180deg);
+    animation: fallFromTop 50s  linear infinite;
+  
+}
+
+@keyframes fallFromTop {
+  
+    to {
+        bottom: -2450px;
+        /* transform: translateY(100vh); */
+    }
+}
+
+#prof{
+    animation: slideInOut 7s linear;
+    right: -100%;
+}
+
+@keyframes slideInOut {
+    0% {
+        right: -100%;
+    }
+    10% {
+        right: 0;
+    }
+    90% {
+        right: 0;
+    }
+    100% {
+        right: 100%;
+    }
+
+}
+
+
+
+
+
+
+
+
